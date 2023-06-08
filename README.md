@@ -1,1 +1,0 @@
-# Figma-lesson-6
