@@ -102,6 +102,7 @@
 	line-height: 62px;
 	top: 0;
 	left: 68px;
+	z-index: 1;
 }
 
 .button:hover .img {
@@ -128,16 +129,35 @@
 	content: "Setting";
 }
 
+.button-1 {
+	position: relative;
+	width: 67px;
+	height: 62px;
+	border-radius: 15px;
+	transition: width 0.7s;
+	cursor: pointer;
+}
+
+.button-1:hover {
+	background-color: rgba(39, 133, 247, 1);
+}
+
 .img-0 {
 	position: absolute;
 	width: 35px;
 	height: 32px;
 	margin: 15px 16px;
-	z-index: 1;
-/*	background-color: rgba(39, 133, 247, 1); */
 }
 
 .img {
+	position: absolute;
+	width: 35px;
+	height: 32px;
+	margin: 15px 16px;
+	z-index: 2;
+}
+
+.img-1 {
 	position: absolute;
 	width: 35px;
 	height: 32px;
